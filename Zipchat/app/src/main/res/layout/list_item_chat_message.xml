@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp">
+
+    <RelativeLayout
+        android:id="@+id/mOutMessageRl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="10dp"
+        android:visibility="gone">
+
+        <com.chat.zipchat.CustomText.CustomRegularTextView
+            android:id="@+id/txtOutMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:textColor="@color/msg_text" />
+
+        <com.chat.zipchat.CustomText.CustomRegularTextView
+            android:id="@+id/mOutMessageTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/txtOutMessage"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/msg_time"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/mInMessageRl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="80dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <com.chat.zipchat.CustomText.CustomRegularTextView
+            android:id="@+id/txtInMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:padding="10dp"
+            android:textColor="@color/white" />
+
+        <com.chat.zipchat.CustomText.CustomRegularTextView
+            android:id="@+id/mInMessageTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtInMessage"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/msg_time"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

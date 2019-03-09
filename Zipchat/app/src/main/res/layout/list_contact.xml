@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Rl_contact"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+
+    <ImageView
+        android:id="@+id/mImgUserContact"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:paddingLeft="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/defult_user" />
+
+    <com.chat.zipchat.CustomText.CustomBoldTextView
+        android:id="@+id/mTxtContactName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/mImgUserContact"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/mImgUserContact"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:visibility="gone">
+
+        <com.chat.zipchat.CustomText.CustomBoldTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yokesh Shanker"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+
+        <com.chat.zipchat.CustomText.CustomRegularTextView
+            android:id="@+id/mTxtStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_toRightOf="@id/imgTik"
+            android:text="Available"
+            android:textSize="13sp" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@id/mImgUserContact"
+        android:layout_marginTop="5dp"
+        android:background="@color/view_color" />
+
+
+</RelativeLayout>
+

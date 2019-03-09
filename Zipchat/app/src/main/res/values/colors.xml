@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2ab63f</color>
+    <color name="colorPrimaryDark">#53ce60</color>
+    <color name="colorAccent">#2ab63f</color>
+
+    <color name="white">#FFFF</color>
+    <color name="black">#000</color>
+
+    <color name="tab_text">#66FFFFFF</color>
+    <color name="transparent_black">#22000000</color>
+
+    <color name="msg_text">#353535</color>
+    <color name="msg_time">#3b3b3b</color>
+
+    <color name="main_color">#BCB9BD</color>
+    <color name="view_color">#bfbfbf</color>
+    <color name="btn_text_color">#353535</color>
+
+    <color name="toolbar">#DAD9D9</color>
+    <color name="frag_back">#EEEEEE</color>
+    <color name="dashed">#d1d1d1</color>
+
+    <color name="online_green">#7ed321</color>
+    <color name="offline_yellow">#f5a623</color>
+    <color name="popup_text_color">#4e4e4e</color>
+
+    <color name="blue">#1d1c7a</color>
+    <color name="pending_color">#efb44a</color>
+    <color name="successful_color">#25cfb1</color>
+
+    <color name="tab_grey">#8d8d8d</color>
+
+    <color name="light_grey">#dfdede</color>
+    <color name="light_orange">#b8f9c2</color>
+    <color name="complete_color">#3BBA61</color>
+
+
+</resources>

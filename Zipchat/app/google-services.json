@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "458272925213",
+    "firebase_url": "https://zipchat-e4d0b.firebaseio.com",
+    "project_id": "zipchat-e4d0b",
+    "storage_bucket": "zipchat-e4d0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458272925213:android:385e44a8a1d932d1",
+        "android_client_info": {
+          "package_name": "com.chat.zipchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458272925213-ck9sm9omfoi552f02gpp0daq1dt6toi4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPW9ubNhgfJ1nuAckV3IxZaLYC-X2UyMU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
